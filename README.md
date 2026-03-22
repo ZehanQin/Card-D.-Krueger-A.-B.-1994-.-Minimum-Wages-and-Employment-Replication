@@ -59,6 +59,7 @@ The raw data files are stored in `data/raw/` and remain unmodified from the orig
 
 ### Repository Structure
 
+```
 ├── README.md                             # Executive Memo + Technical Appendix
 ├── requirements.txt                      # Python dependencies
 ├── .gitignore
@@ -69,6 +70,7 @@ The raw data files are stored in `data/raw/` and remain unmodified from the orig
     ├── 01_Data_Cleaning.ipynb            # Phase 1: Data audit and validation
     ├── 02_Replication_Analysis.ipynb      # Phase 2: Baseline replication
     └── 03_Extension_and_Results.ipynb    # Phase 1 + 2 + 3 combined (final notebook)
+```
 
 ### Phase 1: Data Audit & Validation
 
