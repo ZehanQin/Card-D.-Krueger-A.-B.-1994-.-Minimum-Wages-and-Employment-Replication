@@ -59,18 +59,16 @@ The raw data files are stored in `data/raw/` and remain unmodified from the orig
 
 ### Repository Structure
 
-```
 ├── README.md                             # Executive Memo + Technical Appendix
 ├── requirements.txt                      # Python dependencies
+├── .gitignore
 ├── data/
 │   ├── raw/                              # Original njmin data files (immutable)
 │   └── processed/                        # Cleaned dataset (card_krueger_clean.csv)
-├── notebooks/
-│   ├── 01_Data_Cleaning.ipynb
-│   ├── 02_Replication_Analysis.ipynb
-│   └── 03_Extension_and_Results.ipynb    # Phase 2 + Phase 3 combined
-└── forest_plot_final.png
-```
+└── notebooks/
+    ├── 01_Data_Cleaning.ipynb            # Phase 1: Data audit and validation
+    ├── 02_Replication_Analysis.ipynb      # Phase 2: Baseline replication
+    └── 03_Extension_and_Results.ipynb    # Phase 1 + 2 + 3 combined (final notebook)
 
 ### Phase 1: Data Audit & Validation
 
