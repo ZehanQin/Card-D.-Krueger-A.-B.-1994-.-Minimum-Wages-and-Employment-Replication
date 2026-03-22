@@ -21,7 +21,7 @@ To double-check, we also compared stores *within* New Jersey: those already payi
 
 The chart below shows our estimated employment effects across different types of restaurants, with confidence ranges. The red dashed line at zero represents "no effect." Points to the right of the line indicate employment gains.
 
-![Forest Plot — DID Estimates by Subgroup](forest_plot_final.png)
+<img width="1184" height="824" alt="download" src="https://github.com/user-attachments/assets/5dffda79-dee3-4f1d-9a72-264d495c6e33" />
 
 **Key takeaways from the chart:**
 - **Overall**, New Jersey stores gained roughly 2.8 workers per store relative to Pennsylvania.
